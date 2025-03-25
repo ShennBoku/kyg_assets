@@ -51,16 +51,33 @@ This will allow you to create PolyZones in your script, but will not import othe
 
 ```lua
 client_scripts {
-  '@kyg_assets/module/PolyZone/client.lua',
-  '@kyg_assets/module/PolyZone/BoxZone.lua',
-  '@kyg_assets/module/PolyZone/EntityZone.lua',
-  '@kyg_assets/module/PolyZone/CircleZone.lua',
-  '@kyg_assets/module/PolyZone/ComboZone.lua',
-  'your_scripts_client.lua'
+    '@kyg_assets/module/PolyZone/client.lua',
+    '@kyg_assets/module/PolyZone/BoxZone.lua',
+    '@kyg_assets/module/PolyZone/EntityZone.lua',
+    '@kyg_assets/module/PolyZone/CircleZone.lua',
+    '@kyg_assets/module/PolyZone/ComboZone.lua',
+    'your_scripts_client.lua'
 }
 ```
 
 For additional information on how to use PolyZone, please take a look at the [wiki](https://github.com/mkafrin/PolyZone/wiki)
+
+## 🦀 Interact Sound Sample's
+
+on Client Script, you can use like this:
+```lua
+--- Play Seatbelt Alarm on Me with Event (Volume 0.4 = 40%)
+TriggerEvent('InteractSound_CL:PlayOnOne', 'beltalarm', 0.4)
+
+--- Play Seatbelt Alarm on Me with Export (Volume 0.4 = 40%)
+exports.kyg_assets:playInteractSound('beltalarm', 0.4)
+
+--- Play Seatbelt Alarm around Me (Radius 30M) with Event (Volume 0.4 = 40%)
+TriggerServerEvent('InteractSound_SV:PlayWithinDistance', 30, 'beltalarm', 0.4)
+
+--- Play Seatbelt Alarm on All Player with Event (Volume 0.4 = 40%)
+TriggerServerEvent('InteractSound_SV:PlayOnAll', 'beltalarm', 0.4)
+```
 
 ## 🦀 Map & Minimap Information
 

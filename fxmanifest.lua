@@ -7,18 +7,10 @@ author 'ShennBoku'
 discord 'https://discord.gg/K5SHYJVHDb'
 description 'KYG Assets Pack'
 this_is_a_map 'yes'
-build_version '25.3.23-1910'
+build_version '2025.03.25-1901'
 
 client_scripts {
-    'module/RageUI/RMenu.lua',
-    'module/RageUI/menu/RageUI.lua',
-    'module/RageUI/menu/Menu.lua',
-    'module/RageUI/menu/MenuController.lua',
-    'module/RageUI/components/*.lua',
-    'module/RageUI/menu/elements/*.lua',
-    'module/RageUI/menu/items/*.lua',
-    'module/RageUI/menu/panels/*.lua',
-    'module/RageUI/menu/windows/*.lua',
+    'module/InteractSound/client.lua',
 
     'module/PolyZone/client.lua',
     'module/PolyZone/BoxZone.lua',
@@ -29,13 +21,17 @@ client_scripts {
 }
 
 server_scripts {
+    'module/InteractSound/server.lua',
+
     'module/PolyZone/creation/server/*.lua',
     'module/PolyZone/server.lua'
 }
 
+ui_page 'public/index.html'
+
 data_file 'SCALEFORM_DLC_FILE' 'stream/Minimap/int3232302352.gfx'
 
--- GTA5 Vehicles
+-- GTA5 Vehicles (move the folder first from ! DISABLED STREAM)
 -- data_file 'HANDLING_FILE' 'stream/GTA5 Vehicles/**/handling.meta'
 -- data_file 'VEHICLE_METADATA_FILE' 'stream/GTA5 Vehicles/**/vehicles.meta'
 -- data_file 'CARCOLS_FILE' 'stream/GTA5 Vehicles/**/carcols.meta'
