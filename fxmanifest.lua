@@ -7,7 +7,7 @@ author 'ShennBoku'
 discord 'https://discord.gg/XGaNQZ8R2e'
 description 'KYG Assets Pack'
 this_is_a_map 'yes'
-build_version '2025.03.25-1901'
+build_version '2025.04.07-0725'
 
 client_scripts {
     'module/InteractSound/client.lua',
@@ -28,6 +28,11 @@ server_scripts {
 }
 
 ui_page 'public/index.html'
+
+data_file 'DLC_ITYP_REQUEST' 'stream/Custom Model/RemoteTV/remotecontrol.ytyp'
+
+data_file 'DLC_ITYP_REQUEST' 'stream/Custom Object/EV Charger/electric_nozzle_typ.ytyp'
+data_file 'DLC_ITYP_REQUEST' 'stream/Custom Object/EV Charger/electric_charger_typ.ytyp'
 
 data_file 'SCALEFORM_DLC_FILE' 'stream/Minimap/int3232302352.gfx'
 
