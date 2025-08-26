@@ -7,7 +7,7 @@ author 'ShennBoku'
 discord 'https://discord.gg/XGaNQZ8R2e'
 description 'KYG Assets Pack'
 this_is_a_map 'yes'
-build_version '2025.04.07-0725'
+build_version '2025.08.26-2209'
 
 client_scripts {
     'module/InteractSound/client.lua',
@@ -36,6 +36,8 @@ data_file 'DLC_ITYP_REQUEST' 'stream/Custom Object/EV Charger/electric_charger_t
 
 data_file 'SCALEFORM_DLC_FILE' 'stream/Minimap/int3232302352.gfx'
 
+data_file 'WEAPON_ANIMATIONS_FILE' 'meta/weaponanimations.meta'
+
 -- GTA5 Vehicles (move the folder first from ! DISABLED STREAM)
 -- data_file 'HANDLING_FILE' 'stream/GTA5 Vehicles/**/handling.meta'
 -- data_file 'VEHICLE_METADATA_FILE' 'stream/GTA5 Vehicles/**/vehicles.meta'
@@ -63,6 +65,7 @@ data_file 'SCALEFORM_DLC_FILE' 'stream/Minimap/int3232302352.gfx'
 -- ##################################################################################################################################################################;
 
 files {
+    'meta/*.meta',
     'public/**',
 
     -- 'stream/GTA5 Vehicles/**/*.meta',
