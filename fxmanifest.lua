@@ -62,6 +62,11 @@ data_file 'WEAPON_ANIMATIONS_FILE' 'meta/weaponanimations.meta'
 -- data_file 'AUDIO_GAMEDATA' 'stream/GTA5 Vehicles/b3258 (Bottom Dollar Bounties - mp2024_01)/_AudioFiles/dlc24-1_game.dat'
 -- data_file 'AUDIO_SOUNDDATA' 'stream/GTA5 Vehicles/b3258 (Bottom Dollar Bounties - mp2024_01)/_AudioFiles/dlc24-1_sounds.dat'
 -- data_file 'AUDIO_WAVEPACK' 'stream/GTA5 Vehicles/b3258 (Bottom Dollar Bounties - mp2024_01)/_AudioFiles/sfx/dlc_24-1'
+
+-- data_file 'AUDIO_SYNTHDATA' 'stream/GTA5 Vehicles/b3407 (Agents of Sabotage - mp2024_02)/_AudioFiles/dlc24-2_amp.dat'
+-- data_file 'AUDIO_GAMEDATA' 'stream/GTA5 Vehicles/b3407 (Agents of Sabotage - mp2024_02)/_AudioFiles/dlc24-2_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'stream/GTA5 Vehicles/b3407 (Agents of Sabotage - mp2024_02)/_AudioFiles/dlc24-2_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'stream/GTA5 Vehicles/b3407 (Agents of Sabotage - mp2024_02)/_AudioFiles/sfx/dlc_24-2'
 -- ##################################################################################################################################################################;
 
 files {
