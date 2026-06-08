@@ -1,5 +1,8 @@
 # 🦭 KYG Assets
 
+[![Discord](https://img.shields.io/discord/1356249888802734132?label=Discord&logo=discord&color=7289DA)](https://discord.gg/XGaNQZ8R2e)
+[![Support Me on Saweria](https://img.shields.io/badge/Support_Me-Saweria-yellow?logo=buymeacoffee)](https://saweria.co/ShennBoku)
+
 **KYG Assets** is a collection of resource assets gathered from various sources, curated and combined into a single repository for easy access and use in other projects. This assets maybe will be required for my other resources.
 
 ## 🌴 Features
